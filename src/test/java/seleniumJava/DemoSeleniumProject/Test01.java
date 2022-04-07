@@ -13,6 +13,7 @@ public class Test01 {
 		driver.manage().window().maximize();
 		driver.get("http://www.gmail.com");
 		System.out.println(driver.getTitle());
+		//exit driver
 		driver.quit();
 	}
 }
